@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import TodoList from '@/components/TodoList.vue'
+import UserDetails from '@/components/UserDetails.vue';
+
 </script>
 
 <template>
   <div class="home">
-    <TodoList />
+    <UserDetails />
   </div>
 </template>

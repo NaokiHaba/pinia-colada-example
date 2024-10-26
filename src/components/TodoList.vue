@@ -6,7 +6,7 @@ const { data: todos, status, error } = useTodos()
 
 <template>
   <div>
-    <h1>Todoリスト</h1>
+    <h1>Todoリスト(defineQueryの例)</h1>
     <div v-if="status === 'pending'">
       読み込み中...
     </div>
